@@ -10,21 +10,20 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Edit</a></li>
                         <li><button class="dropdown-item text-danger" data-bs-toggle="modal"
-                                data-bs-target="#deleteModal">Remove Dorm Name</button>
+                                data-bs-target="#deleteModal">Remove Comlab Name</button>
                         </li>
                     </ul>
                 </div><a class="card-body" href="/room">
                     <div class="card-badge"><span class="badge rounded-pill bg-success">Available</span></div>
                     <div class="d-flex align-items-center">
                         <div class="ps-0 mb-5">
-                            <h6>RUBIA</h6>
-                            <span class="text-muted small pt-2">20/25</span>
-                            <span class="text-muted small pt-2">Rooms</span>
+                            <h6>COMLAB 1</h6>
+                            <span class="text-muted small pt-2">COT Building</span>
                         </div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12"><span class="text-muted small">Address</span></div>
-                        <div class="col-12"><span>Fortich St.</span></div>
+                        <div class="col-12"><span class="text-muted small">Instructor</span></div>
+                        <div class="col-12"><span>N/A</span></div>
                     </div>
                 </a>
             </div>
@@ -42,21 +41,20 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Edit</a></li>
                         <li><button class="dropdown-item text-danger" data-bs-toggle="modal"
-                                data-bs-target="#deleteModal">Remove Dorm Name</button>
+                                data-bs-target="#deleteModal">Remove Comlab Name</button>
                         </li>
                     </ul>
                 </div><a class="card-body" href="/room">
                     <div class="card-badge"><span class="badge rounded-pill bg-danger">Occupied</span></div>
                     <div class="d-flex align-items-center">
                         <div class="ps-0 mb-5">
-                            <h6>GACUS</h6>
-                            <span class="text-muted small pt-2">10/10</span>
-                            <span class="text-muted small pt-2">Rooms</span>
+                            <h6>COMLAB 2</h6>
+                            <span class="text-muted small pt-2">COT Building</span>
                         </div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12"><span class="text-muted small">Address</span></div>
-                        <div class="col-12"><span>Fortich St.</span></div>
+                        <div class="col-12"><span class="text-muted small">Instructor</span></div>
+                        <div class="col-12"><span>Mr. Sales Aribe</span></div>
                     </div>
                 </a>
             </div>
@@ -74,21 +72,20 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Edit</a></li>
                         <li><button class="dropdown-item text-danger" data-bs-toggle="modal"
-                                data-bs-target="#deleteModal">Remove Dorm Name</button>
+                                data-bs-target="#deleteModal">Remove Comlab Name</button>
                         </li>
                     </ul>
                 </div><a class="card-body" href="/room">
                     <div class="card-badge"><span class="badge rounded-pill bg-success">Available</span></div>
                     <div class="d-flex align-items-center">
                         <div class="ps-0 mb-5">
-                            <h6>TADAYCA</h6>
-                            <span class="text-muted small pt-2">20/25</span>
-                            <span class="text-muted small pt-2">Rooms</span>
+                            <h6>COMLAB 3</h6>
+                            <span class="text-muted small pt-2">COT Building</span>
                         </div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12"><span class="text-muted small">Address</span></div>
-                        <div class="col-12"><span>Fortich St.</span></div>
+                        <div class="col-12"><span class="text-muted small">Instructor</span></div>
+                        <div class="col-12"><span>N/A</span></div>
                     </div>
                 </a>
             </div>
@@ -105,21 +102,20 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Edit</a></li>
                         <li><button class="dropdown-item text-danger" data-bs-toggle="modal"
-                                data-bs-target="#deleteModal">Remove Dorm Name</button>
+                                data-bs-target="#deleteModal">Remove Comlab Name</button>
                         </li>
                     </ul>
                 </div><a class="card-body" href="/room">
                     <div class="card-badge"><span class="badge rounded-pill bg-success">Available</span></div>
                     <div class="d-flex align-items-center">
                         <div class="ps-0 mb-5">
-                            <h6>GEPANA</h6>
-                            <span class="text-muted small pt-2">18/20</span>
-                            <span class="text-muted small pt-2">Rooms</span>
+                            <h6>COMLAB 4</h6>
+                            <span class="text-muted small pt-2">COT Building</span>
                         </div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12"><span class="text-muted small">Address</span></div>
-                        <div class="col-12"><span>Fortich St.</span></div>
+                        <div class="col-12"><span class="text-muted small">Instructor</span></div>
+                        <div class="col-12"><span>N/A</span></div>
                     </div>
                 </a>
             </div>
@@ -137,21 +133,20 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Edit</a></li>
                         <li><button class="dropdown-item text-danger" data-bs-toggle="modal"
-                                data-bs-target="#deleteModal">Remove Dorm Name</button>
+                                data-bs-target="#deleteModal">Remove Comlab Name</button>
                         </li>
                     </ul>
                 </div><a class="card-body" href="/room">
                     <div class="card-badge"><span class="badge rounded-pill bg-success">Available</span></div>
                     <div class="d-flex align-items-center">
                         <div class="ps-0 mb-5">
-                            <h6>OCIER</h6>
-                            <span class="text-muted small pt-2">20/25</span>
-                            <span class="text-muted small pt-2">Rooms</span>
+                            <h6>COMLAB 5</h6>
+                            <span class="text-muted small pt-2">HS Building</span>
                         </div>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-12"><span class="text-muted small">Address</span></div>
-                        <div class="col-12"><span>Fortich St.</span></div>
+                        <div class="col-12"><span class="text-muted small">Instructor</span></div>
+                        <div class="col-12"><span>N/A</span></div>
                     </div>
                 </a>
             </div>

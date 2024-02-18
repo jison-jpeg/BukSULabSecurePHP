@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dormy | @yield('pageTitle', 'Pagetitle')</title>
+    <title>@yield('pageTitle', 'Pagetitle') - BukSULab Secure</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 

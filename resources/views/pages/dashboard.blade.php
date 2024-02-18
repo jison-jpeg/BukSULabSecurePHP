@@ -20,7 +20,7 @@
                 <div class="row">
 
                     {{-- Dashboard Stats --}}
-                    {{-- @include('components.stats.dashboardstats') --}}
+                    @include('components.stats.dashboard')
 
                     <!-- Reports -->
                     <div class="col-12">

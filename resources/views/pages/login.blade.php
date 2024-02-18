@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+{{-- @section('pageTitle', 'Login') --}}
 <!-- ======= Header ======= -->
 @include('layouts.head')
 <!-- End Header -->

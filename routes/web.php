@@ -22,4 +22,30 @@ Route::get('/dashboard', function () {
 Route::get('/laboratories', function () {
     return view('pages.laboratory');
 });
-
+Route::get('/users', function () {
+    return view('pages.user');
+});
+Route::get('/attendance', function () {
+    return view('pages.attendance');
+});
+Route::get('/instructors', function () {
+    return view('pages.instructor');
+});
+Route::get('/subjects', function () {
+    return view('pages.subject');
+});
+Route::get('/schedules', function () {
+    return view('pages.schedule');
+});
+Route::get('/reports', function () {
+    return view('pages.report');
+});
+Route::get('/profile', function () {
+    return view('pages.profile');
+});
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
+Route::get('/reports', function () {
+    return view('pages.report');
+});

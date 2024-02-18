@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('pageTitle', 'Computer Lab Management')
+@section('pageTitle', 'Instructors')
 @section('content')
     <div class="pagetitle">
         <nav>
@@ -11,28 +11,14 @@
         </nav>
     </div>
 
-    <div class="mt-3 mb-3">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addModal">
-            Add Laboratory
-        </button>
-    </div>
-    @include('components.modals.laboratory')
-
     <section class="section dashboard">
         <div class="row">
 
             {{-- Left side columns --}}
             <div class="col-lg-12">
-
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Computer Laboratories</h5>
-                                @include('components.cards.lab')
-                        </div>
-                    </div>
-
+                @include('components.table.instructors')
             </div>
-                
+
             {{-- </div> --}}
             {{-- End Left side columns --}}
 

@@ -6,7 +6,10 @@
 <body>
 
     <div id="preloader">
-        <div id="loader"></div>
+        <div class="preloader-background"></div>
+        <div class="preloader-logo">
+            <img src="/assets/img/logo.png" alt="Logo">
+        </div>
     </div>
 
     <!-- ======= Header ======= -->
@@ -28,8 +31,6 @@
         <i class="bi bi-arrow-up-short"></i>
     </a>
 
-    <!-- Additional scripts, styles, etc. go here -->
-
     {{-- Vendor JS Files --}}
     <script src="{{ asset('assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
     <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
@@ -41,7 +42,7 @@
     <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
-    <script>
+    {{-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Hide the preloader when the page is fully loaded
             window.addEventListener('load', function() {
@@ -51,7 +52,22 @@
                 }, 300);
             });
         });
-    </script>
+    </script> --}}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Display the preloader
+        document.getElementById('preloader').style.display = 'block';
+
+        
+        setTimeout(function() {
+            document.getElementById('preloader').style.opacity = 0;
+            setTimeout(function() {
+                document.getElementById('preloader').style.display = 'none';
+            }, 300);
+        }, 2000); // 2 second delay
+    });
+</script>
 
     <!-- Necessary code for autocompletion in tenant admin within add tenant modal -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -25,6 +25,7 @@
                     <span>Computer Lab</span>
                 </a>
             </li>
+
             <li class="nav-item">
                 <a class="nav-link {{ request()->is('attendance') ? '' : 'collapsed' }}" href="{{ url('/attendance') }}">
                     <i class="bi bi-clipboard2-check"></i>
@@ -38,15 +39,20 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ request()->is('schedule') ? '' : 'collapsed' }}" href="{{ url('/schedule') }}">
+                <a class="nav-link {{ request()->is('subjects') ? '' : 'collapsed' }}" href="{{ url('/subjects') }}">
+                    <i class="bi bi-person-workspace"></i>
+                    <span>Subject</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link {{ request()->is('schedules') ? '' : 'collapsed' }}" href="{{ url('/schedules') }}">
                     <i class="bi bi-calendar2-week"></i>
                     <span>Class Schedule</span>
                 </a>
             </li>
     
             <li class="nav-item">
-                <a class="nav-link {{ request()->is('employees') ? '' : 'collapsed' }}"
-                    href="{{ url('/employees') }}">
+                <a class="nav-link {{ request()->is('reports') ? '' : 'collapsed' }}" href="{{ url('/reports') }}">
                     <i class="bi bi-graph-up-arrow"></i>
                     <span>Reports</span>
                 </a>
@@ -55,16 +61,23 @@
             <li class="nav-heading">USER</li>
 
             <li class="nav-item">
-                <a class="nav-link {{ request()->is('boarders') ? '' : 'collapsed' }}" href="{{ url('/boarders') }}">
+                <a class="nav-link {{ request()->is('profile') ? '' : 'collapsed' }}" href="{{ url('/profile') }}">
                     <i class="bi bi-person"></i>
                     <span>Profile</span>
                 </a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link {{ request()->is('dormitories') ? '' : 'collapsed' }}"
-                    href="{{ url('/dormitories') }}">
+                <a class="nav-link {{ request()->is('contact') ? '' : 'collapsed' }}" href="{{ url('/contact') }}">
                     <i class="bi bi-envelope"></i>
                     <span>Contact</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link {{ request()->is('users') ? '' : 'collapsed' }}" href="{{ url('/users') }}">
+                    <i class="bi bi-people"></i>
+                    <span>User Management</span>
                 </a>
             </li>
 
@@ -77,17 +90,12 @@
 
                 <ul id="icons-nav" class="nav-content collapse {{ Request::is('users/archived*') ? 'show' : '' }}" data-bs-parent="#sidebar-nav">
                     <li>
-                        <a href="{{ url('/users/archived') }}">
-                            <i class="bi bi-circle"></i><span>User Management</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ url('/tenants/archived') }}">
+                        <a href="{{ url('/logs') }}">
                             <i class="bi bi-circle"></i><span>Logs</span>
                         </a>
                     </li>
                     <li>
-                        <a href="{{ url('/dormitories/archived') }}">
+                        <a href="{{ url('/archived') }}">
                             <i class="bi bi-circle"></i><span>Archives</span>
                         </a>
                     </li>
